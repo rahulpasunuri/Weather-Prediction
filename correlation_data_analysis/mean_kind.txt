@@ -1,0 +1,15 @@
+Mean for  I can't tell  is  0.278698278295
+Mean for  sun  is  0.15437536243
+Mean for  storms  is  0.150339671054
+Mean for  hot  is  0.122333897827
+Mean for  rain  is  0.10988998794
+Mean for  cold  is  0.0998308572602
+Mean for  other  is  0.07625307264
+Mean for  wind  is  0.0547957047187
+Mean for  humid  is  0.0383183357709
+Mean for  snow  is  0.0375191286275
+Mean for  clouds  is  0.0242838246992
+Mean for  tornado  is  0.0175589125805
+Mean for  dry  is  0.00747974238575
+Mean for  ice  is  0.00340734611141
+Mean for  hurricane  is  0.00165238755036

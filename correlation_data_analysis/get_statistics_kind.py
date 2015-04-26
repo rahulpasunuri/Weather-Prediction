@@ -4,7 +4,7 @@
 
 import math
 
-fileName = "train.csv"
+fileName = "../train.csv"
 delim = ','
 
 kind_name = {}
@@ -61,8 +61,7 @@ n=len(k)
 
 #compute mean of all kinds.
 for i in range(15):
-	mean[i]=mean[i]/n
-	
+	mean[i]=mean[i]/n	
 
 #compute std. deviation for all kinds..
 for i in range(15):
@@ -112,9 +111,32 @@ for i in range(len(sort)):
 	sort[i] = sort[max_index]
 	sort[max_index] = temp
 	
-	
+'''	
 for s in sort:
 	print "Correlation between ",kind_name[s[0]]," and ",kind_name[s[1]]," is ",s[2]
+'''		
+		
+mean_sort=[]		
+		
+for i in range(15):
+	mean_sort.append((i,mean[i]))		
+	
+#sort the mean values..
+for i in range(len(mean_sort)):
+	max_corr = -1000
+	max_index=-1
+	for j in range(i,len(mean_sort)):
+		if mean_sort[j][1] > max_corr:
+			max_corr = mean_sort[j][1]
+			max_index=j	 
+	#swap i and max_index
+	temp = mean_sort[i]
+	mean_sort[i] = mean_sort[max_index]
+	mean_sort[max_index] = temp
+	
+		
+for m in mean_sort:
+	print "Mean for ",kind_name[m[0]]," is ",m[1]
 		
 #print "Minimum Correlation is ", minCorr, kind_name[minTuple[0]],"\t",kind_name[minTuple[1]] 
 #print "Max correlation is ",maxCorr,kind_name[maxTuple[0]],"\t",kind_name[maxTuple[1]]

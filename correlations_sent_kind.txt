@@ -1,0 +1,90 @@
+Correlation between  I can't tell  and  hot  is  0.262903315284
+Correlation between  I can't tell  and  snow  is  0.2218582455
+Correlation between  I can't tell  and  rain  is  0.211894732086
+Correlation between  I can't tell  and  cold  is  0.0441214081199
+Correlation between  I can't tell  and  I can't tell  is  0.0263567462091
+Correlation between  I can't tell  and  ice  is  0.0240612840539
+Correlation between  I can't tell  and  hurricane  is  -0.0170565469077
+Correlation between  I can't tell  and  storms  is  -0.0791705683406
+Correlation between  I can't tell  and  clouds  is  -0.0918625344624
+Correlation between  I can't tell  and  dry  is  -0.120567159649
+Correlation between  I can't tell  and  tornado  is  -0.136804395976
+Correlation between  I can't tell  and  sun  is  -0.227695066047
+Correlation between  I can't tell  and  wind  is  -0.235097503801
+Correlation between  I can't tell  and  humid  is  -0.329813049449
+Correlation between  I can't tell  and  other  is  -0.335247980853
+
+----------------------------------------
+
+Correlation between  Negative  and  cold  is  2.79443098812
+Correlation between  Negative  and  hot  is  2.07478608401
+Correlation between  Negative  and  rain  is  0.878069574937
+Correlation between  Negative  and  ice  is  0.108318598793
+Correlation between  Negative  and  clouds  is  0.08178491436
+Correlation between  Negative  and  hurricane  is  -0.142916658841
+Correlation between  Negative  and  humid  is  -0.143468313477
+Correlation between  Negative  and  tornado  is  -0.229636758296
+Correlation between  Negative  and  snow  is  -0.398010719871
+Correlation between  Negative  and  dry  is  -0.473828675512
+Correlation between  Negative  and  I can't tell  is  -0.603908855645
+Correlation between  Negative  and  wind  is  -0.61299461938
+Correlation between  Negative  and  other  is  -0.982458445068
+Correlation between  Negative  and  storms  is  -0.987831043815
+Correlation between  Negative  and  sun  is  -2.37407584373
+
+----------------------------------------
+
+Correlation between  Neutral  and  wind  is  6.55921809676
+Correlation between  Neutral  and  storms  is  6.24952021439
+Correlation between  Neutral  and  humid  is  5.93831121446
+Correlation between  Neutral  and  tornado  is  3.0272379617
+Correlation between  Neutral  and  clouds  is  2.78229113773
+Correlation between  Neutral  and  other  is  2.53182007645
+Correlation between  Neutral  and  rain  is  1.51651045017
+Correlation between  Neutral  and  dry  is  1.0938591549
+Correlation between  Neutral  and  hurricane  is  0.457048543834
+Correlation between  Neutral  and  ice  is  0.395800985727
+Correlation between  Neutral  and  snow  is  0.374778805274
+Correlation between  Neutral  and  cold  is  -1.69071557211
+Correlation between  Neutral  and  hot  is  -1.76962905227
+Correlation between  Neutral  and  sun  is  -3.44803028837
+Correlation between  Neutral  and  I can't tell  is  -4.43567680766
+
+----------------------------------------
+
+Correlation between  Positive  and  sun  is  4.13377586392
+Correlation between  Positive  and  I can't tell  is  1.37432804431
+Correlation between  Positive  and  other  is  0.590886389097
+Correlation between  Positive  and  dry  is  0.244108038398
+Correlation between  Positive  and  hurricane  is  -0.268343203504
+Correlation between  Positive  and  ice  is  -0.458239037292
+Correlation between  Positive  and  hot  is  -0.566659041275
+Correlation between  Positive  and  clouds  is  -0.718742317738
+Correlation between  Positive  and  snow  is  -0.790360993504
+Correlation between  Positive  and  rain  is  -0.894391545777
+Correlation between  Positive  and  tornado  is  -0.913262462579
+Correlation between  Positive  and  wind  is  -1.22682331482
+Correlation between  Positive  and  humid  is  -1.35743329028
+Correlation between  Positive  and  cold  is  -1.79527534986
+Correlation between  Positive  and  storms  is  -1.84309590375
+
+----------------------------------------
+
+Correlation between  Not Related  and  I can't tell  is  1.58753240858
+Correlation between  Not Related  and  snow  is  1.1595787985
+Correlation between  Not Related  and  hurricane  is  0.287010920757
+Correlation between  Not Related  and  ice  is  0.215064628519
+Correlation between  Not Related  and  storms  is  0.0735351641109
+Correlation between  Not Related  and  tornado  is  -0.174441413898
+Correlation between  Not Related  and  sun  is  -0.182291559415
+Correlation between  Not Related  and  cold  is  -0.253224422477
+Correlation between  Not Related  and  dry  is  -0.261942402993
+Correlation between  Not Related  and  clouds  is  -0.734412711312
+Correlation between  Not Related  and  other  is  -0.740318488308
+Correlation between  Not Related  and  rain  is  -1.04355159264
+Correlation between  Not Related  and  hot  is  -1.1118402136
+Correlation between  Not Related  and  humid  is  -1.27155034393
+Correlation between  Not Related  and  wind  is  -1.29224997732
+
+----------------------------------------
+

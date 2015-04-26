@@ -35,3 +35,10 @@ Criterion for merging:
 By, this grouping we have split a multi-label problem to a mutli-class problem+multi-label(with small number of labels).
 
  
+Correlations between sentiment and kind:
+Correlation between  Negative  and  cold  is  2.79443098812
+Correlation between  Negative  and  hot  is  2.07478608401
+
+Cold and Hot weathers have negative tweets.
+
+

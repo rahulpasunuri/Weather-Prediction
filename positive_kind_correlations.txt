@@ -1,0 +1,44 @@
+Correlation between  humid  and  wind  is  0.327476880612
+Correlation between  ice  and  snow  is  0.104106952019
+Correlation between  clouds  and  rain  is  0.102892091693
+Correlation between  storms  and  tornado  is  0.0823221758172
+Correlation between  hurricane  and  tornado  is  0.0565496228435
+Correlation between  humid  and  other  is  0.0540691354145
+Correlation between  dry  and  hot  is  0.0499522190223
+Correlation between  clouds  and  wind  is  0.0490721940853
+Correlation between  dry  and  humid  is  0.0472142774673
+Correlation between  other  and  wind  is  0.0457032144795
+Correlation between  ice  and  other  is  0.0450796317361
+Correlation between  dry  and  sun  is  0.0390627633219
+Correlation between  ice  and  storms  is  0.0381010450692
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Correlation between  clouds  and  storms  is  0.0353138107248
+Correlation between  dry  and  wind  is  0.0336148656233
+Correlation between  cold  and  ice  is  0.0335673603896
+Correlation between  hot  and  humid  is  0.0324109852312
+Correlation between  I can't tell  and  other  is  0.0302042545171
+Correlation between  clouds  and  sun  is  0.0259182520804
+Correlation between  dry  and  other  is  0.0240207906927
+Correlation between  hurricane  and  storms  is  0.0216618804062
+Correlation between  hurricane  and  ice  is  0.0129697528778
+Correlation between  ice  and  tornado  is  0.0109234721462
+Correlation between  ice  and  rain  is  0.00724046426107
+Correlation between  hurricane  and  snow  is  0.00498420983636
+Correlation between  cold  and  wind  is  0.00351691778641
+Correlation between  ice  and  wind  is  0.00288847078391
+Correlation between  cold  and  rain  is  0.00194576235648
+Correlation between  clouds  and  ice  is  0.00137033859335

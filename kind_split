@@ -1,0 +1,37 @@
+Top five strongest correlations:
+Correlation between  humid  and  wind  is  0.327476880612
+Correlation between  ice  and  snow  is  0.104106952019
+Correlation between  clouds  and  rain  is  0.102892091693
+Correlation between  storms  and  tornado  is  0.0823221758172
+Correlation between  hurricane  and  tornado  is  0.0565496228435
+
+Top negative correlations:
+1) As expected, relation "I can't tell" has strong negative correlations with all kinds.
+2) Correlation between  storms  and  sun  is  -0.182024978188
+3) Correlation between  hot  and  storms  is  -0.172315160163
+4) Correlation between  cold  and  storms  is  -0.151842939979
+5) Correlation between  cold  and  sun  is  -0.132242073736
+6) Correlation between  hot  and  rain  is  -0.121812692721
+
+
+Final Groups:
+1) humid+wind+other
+
+2) ice+snow
+
+3) clounds+rain+cold
+
+4) storms+hurricane+tornado
+
+5) dry+sun+hot
+
+6) I can't tell
+
+Criterion for merging:
+1) Should not have strong negative correlations inside a group.
+2) Should not have strong positive correlations between groups.
+
+
+By, this grouping we have split a multi-label problem to a mutli-class problem+multi-label(with small number of labels).
+
+ 

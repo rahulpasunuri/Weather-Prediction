@@ -1,0 +1,84 @@
+Top five strongest correlations:
+Correlation between  humid  and  wind  is  0.327476880612
+Correlation between  ice  and  snow  is  0.104106952019
+Correlation between  clouds  and  rain  is  0.102892091693
+Correlation between  storms  and  tornado  is  0.0823221758172
+Correlation between  hurricane  and  tornado  is  0.0565496228435
+
+Top negative correlations:
+1) As expected, relation "I can't tell" has strong negative correlations with all kinds.
+2) Correlation between  storms  and  sun  is  -0.182024978188
+3) Correlation between  hot  and  storms  is  -0.172315160163
+4) Correlation between  cold  and  storms  is  -0.151842939979
+5) Correlation between  cold  and  sun  is  -0.132242073736
+6) Correlation between  hot  and  rain  is  -0.121812692721
+
+
+Final Groups:
+1) humid+wind+other
+
+2) ice+snow
+
+3) clounds+rain+cold
+
+4) storms+hurricane+tornado
+
+5) dry+sun+hot
+
+6) I can't tell
+
+Criterion for merging:
+1) Should not have strong negative correlations inside a group.
+2) Should not have strong positive correlations between groups.
+
+
+By, this grouping we have split a multi-label problem to a mutli-class problem+multi-label(with small number of labels).
+
+
+Mean values of kind:
+Mean for  I can't tell  is  0.278698278295
+Mean for  sun  is  0.15437536243
+Mean for  storms  is  0.150339671054
+Mean for  hot  is  0.122333897827
+Mean for  rain  is  0.10988998794
+Mean for  cold  is  0.0998308572602
+Mean for  other  is  0.07625307264
+Mean for  wind  is  0.0547957047187
+Mean for  humid  is  0.0383183357709
+Mean for  snow  is  0.0375191286275
+Mean for  clouds  is  0.0242838246992
+Mean for  tornado  is  0.0175589125805
+Mean for  dry  is  0.00747974238575
+Mean for  ice  is  0.00340734611141
+Mean for  hurricane  is  0.00165238755036
+
+
+
+Future Work: 
+Correlations between sentiment and kind:
+Correlation between  Negative  and  cold  is  2.79443098812
+Correlation between  Negative  and  hot  is  2.07478608401
+
+Cold and Hot weathers have negative tweets.
+
+
+1) City information is ignored.
+2) Only lower case letters are used.
+3) Mean values substituted for kind values is better than the base-line.
+4) Replaced the special characters ( '(', ')', '#', '$', '%', '*', '@', '!', "{", "}", ":")
+5) Modify the labels of training data to our 6 categories:
+	1) Check the Max of a kind values and mark that datapoint for that category.
+	2) Use Average value for a tiebreaker.
+	(there were 6 data points which could not be resolved even with a tie breaker. Those are marked as outliers, and ignored for training.)
+	
+Mean of Categories after pruning:
+1 - 0.095
+2 - 0.033 
+3 - 0.18
+4 - 0.157
+5 - 0.24
+6 - 0.295
+
+
+ 
+

@@ -4,7 +4,7 @@
 
 import math
 
-fileName = "../train.csv"
+fileName = "../../train.csv"
 delim = ','
 
 kind_name = {}
@@ -39,6 +39,9 @@ k=[]
 mean = []
 std=[]
 
+mean_s=[0 for i in range(5)]
+mean_w=[0 for i in range(4)]
+
 for i in range(15):
 	mean.append(0)
 	std.append(0)
@@ -48,6 +51,20 @@ for l in lines:
 	row=[]
 		
 	l = len(words)
+	
+	
+	#get the s columns..	
+	for i in range(l-24,l-19):
+		words[i] = words[i].replace("\"","")
+		row.append(float(words[i]))
+		mean_s[i-l+24] = mean_s[i-l+24]+float(words[i])
+	
+	
+	#get the w columns..	
+	for i in range(l-19,l-15):
+		words[i] = words[i].replace("\"","")
+		row.append(float(words[i]))
+		mean_w[i-l+19] = mean_w[i-l+19]+float(words[i])
 	
 	#get the last 15 columns..	
 	for i in range(l-15,l):
@@ -59,20 +76,29 @@ for l in lines:
 	
 n=len(k)
 
+for i in range(5):
+	mean_s[i] = mean_s[i]/n
+	
+for i in range(4):
+	mean_w[i]=mean_w[i]/n
+
 #compute mean of all kinds.
 for i in range(15):
 	mean[i]=mean[i]/n	
 
 mean_string = [str(float("{0:.2f}".format(x))) for x in mean]
+mean_s_string = [str(float("{0:.2f}".format(x))) for x in mean_s]
+mean_w_string = [str(float("{0:.2f}".format(x))) for x in mean_w]
+
 print "id,s1,s2,s3,s4,s5,w1,w2,w3,w4,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15"
 
-sample = open('../sampleSubmission.csv', "r")
+sample = open('../../sampleSubmission.csv', "r")
 ids = sample.readlines()
 sample.close()
 ids=ids[1:]
-temp = "0,"*9
+temp = ",".join(mean_s_string)+","+",".join(mean_w_string)
 for row in ids:	 	
-	print  row.split(',')[0],",",temp,",".join(mean_string).strip()
+	print  row.split(',')[0],",",temp,",",",".join(mean_string).strip()
 exit()
 
 #compute std. deviation for all kinds..

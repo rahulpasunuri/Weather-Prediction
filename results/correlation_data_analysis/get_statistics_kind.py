@@ -63,6 +63,18 @@ n=len(k)
 for i in range(15):
 	mean[i]=mean[i]/n	
 
+mean_string = [str(float("{0:.2f}".format(x))) for x in mean]
+print "id,s1,s2,s3,s4,s5,w1,w2,w3,w4,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15"
+
+sample = open('../sampleSubmission.csv', "r")
+ids = sample.readlines()
+sample.close()
+ids=ids[1:]
+temp = "0,"*9
+for row in ids:	 	
+	print  row.split(',')[0],",",temp,",".join(mean_string).strip()
+exit()
+
 #compute std. deviation for all kinds..
 for i in range(15):
 	for row in k:

@@ -1,0 +1,7 @@
+@relation 'kind_pruned'
+
+@attribute tweet string
+@attribute city string
+@attribute Class numeric
+
+@data

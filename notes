@@ -64,21 +64,27 @@ Cold and Hot weathers have negative tweets.
 
 1) City information is ignored.
 2) Only lower case letters are used.
-3) Mean values substituted for kind values is better than the base-line.
+3) Mean values substituted for kind values is better than the base-line. Mean values substituted for all classes performs much better.
 4) Replaced the special characters ( '(', ')', '#', '$', '%', '*', '@', '!', "{", "}", ":")
 5) Modify the labels of training data to our 6 categories:
 	1) Check the Max of a kind values and mark that datapoint for that category.
 	2) Use Average value for a tiebreaker.
 	(there were 6 data points which could not be resolved even with a tie breaker. Those are marked as outliers, and ignored for training.)
 	
-Mean of Categories after pruning:
-1 - 0.095
-2 - 0.033 
-3 - 0.18
-4 - 0.157
-5 - 0.24
-6 - 0.295
+	
+	
+Naive Bayes 10 fold:
+Correctly Classified Instances       61117               80.9797 %
+Incorrectly Classified Instances     14355               19.0203 %
+Kappa statistic                          0.7572
+Mean absolute error                      0.0781
+Root mean squared error                  0.2285
+Relative absolute error                 29.7273 %
+Root relative squared error             63.0487 %
+Coverage of cases (0.95 level)          90.4057 %
+Mean rel. region size (0.95 level)      29.4732 %
+Total Number of Instances            75472     
 
-
+	
  
 
